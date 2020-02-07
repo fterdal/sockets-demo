@@ -19,7 +19,7 @@ let users = [
 
 app.use(express.static("public"))
 
-const PORT = 7070
+const PORT = 1234
 const server = app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`)
 })
