@@ -1,0 +1,26 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+button[type="submit"] {
+  font-size: larger;
+}
+form {
+  text-align: center;
+}
+#users-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-card {
+  margin: 1em;
+  padding: 1rem;
+}
