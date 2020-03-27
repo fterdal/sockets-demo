@@ -26,7 +26,7 @@ const server = app.listen(PORT, () => {
 
 const io = socketIO(server)
 io.on("connection", socket => {
-  console.log(socket.id, " has made a persistent connection to the server!")
+  console.log(socket.id, "has made a persistent connection to the server!")
   socket.emit("all-users", users)
 
   socket.on("new-user", user => {
